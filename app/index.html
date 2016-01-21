@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+
+    <!-- endbuild -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+  <body ng-app="mcoApp">
+    <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    
+    
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                <div class="backlogo">
+                    <a class="" href="#"><img src="images/logo.png" class="logotl" alt="logo"></a>
+
+                </div>
+            </div>
+            <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 menuPrincipal">
+                    <nav class="navbar navbar-inverse">
+                <div class="navbar-header">
+                    <button style="color:white;" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-mco">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                </nav>
+                <div class="collapse navbar-collapse" id="navbar-mco">
+
+                    <div class="">
+                        <ul class="nav navbar-nav" style="width:100%">
+                            <li class="dropdown">
+                                <a href="#/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PUBLICIDAD</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#/">MÚSICA TV</a></li>
+                                    <li><a href="#/">MÚSICA CONTENIDO</a></li>
+                                    <li><a href="#/">MÚSICA CINEMINUTO</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#/">DISEÑO SONORO TV</a></li>
+                                    <li><a href="#/">DISEÑO SONORO CONTENIDO</a></li>
+                                    <li><a href="#/">DISEÑO SONORO CINEMINUTO</a></li>
+                                    <li><a href="#/">COVERS</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CINE</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#/">MÚSICA LARGOMETRAJE</a></li>
+                                    <li><a href="#/">MÚSICA DOCUMENTAL</a></li>
+                                    <li><a href="#/">MÚSICA CORTOMETRAJE</a></li>
+                                    <li><a href="#/">MÚSICA ANIMACIÓN</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#/">DISEÑO SONORO LARGOMETRAJE</a></li>
+                                    <li><a href="#/">DISEÑO SONORO DOCUMENTAL</a></li>
+                                    <li><a href="#/">DISEÑO SONORO CORTOMETRAJE</a></li>
+                                    <li><a href="#/">DISEÑO SONORO ANIMACIÓN</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a href="#/">ESCULTURAS</a>
+
+
+                                <li class="dropdown">
+                                    <a href="#/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SERVICIOS</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#/">SONIDO DIRECTO</a></li>
+                                        <li><a href="#/">MUSIC SUPERVISION</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">US</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#/">FILOSOFÍA</a></li>
+                                        <li><a href="#/">STAFF</a></li>
+                                        <li><a href="#/">OUT OF THE BOX</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#/">TOUR </a>
+                                </li>
+                                <li><a href="#/">CONTACTO</a>
+                                </li>
+
+
+                        </ul>
+                    </div>
+
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background: #222222;">
+        <div class="row">
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-">
+                <div class="text-center iconSociales">
+                    <a href=""><img class="icono-social" src="images/redessociales/1.png" alt=""></a>
+                    <a href=""><img class="icono-social" src="images/redessociales/2.png" alt=""></a>
+                    <a href=""><img class="icono-social" src="images/redessociales/3.png" alt=""></a>
+                    <a href=""><img class="icono-social" src="images/redessociales/4.png" alt=""></a>
+                    <a href=""><img class="icono-social" src="images/redessociales/5.png" alt=""></a>
+                </div>
+            </div>
+            <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                <span class="pull-right casillas">PUBLICIDAD/AD</span>
+            </div>
+        </div>
+    </div>
+
+    <div ng-view=""></div>
+
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+     <script>
+       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+       }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-XXXXX-X');
+       ga('send', 'pageview');
+    </script>
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/angular-scroll/angular-scroll.js"></script>
+    <script src="bower_components/ngSmoothScroll/lib/angular-smooth-scroll.js"></script>
+    <script src="bower_components/angular-vimeo-embed/dist/angular-vimeo-embed.min.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/about.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
